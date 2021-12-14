@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.header {
+    padding: 15px 0px;
+}
+
+.header-content {
+    display: flex;
+}
+
+.nav-bar {
+    align-self: flex-end;
+}
+
+.nav-bar_items {
+    display: flex
+}
+
+.nav-bar_item {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.nav-bar_link {
+    text-decoration: none;
+    color: #219BCB;
+    font-size: 20px;
+    font-weight: 300;
+}
